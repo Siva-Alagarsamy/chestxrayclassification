@@ -15,4 +15,5 @@ This is a dataset that has reviews written by users with a label on wether it is
 Here is the dataset on Kaggle
 https://www.kaggle.com/bittlingmayer/amazonreviews 
 
-
+# Dataset for this project
+This project will use the Amazon review dataset to build a model that will predict the sentitment based on a given review
