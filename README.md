@@ -1,7 +1,7 @@
 # Introduction
 This is the repo for the ML project that I am working on as part of the [Machine Learning course at Springboard](https://www.springboard.com/courses/ai-machine-learning-career-track).
 
-#Datasets explored for the project
+# Datasets explored for the project
 **Chest X-Ray Covid-19 & Pneumonia**
 This is a dataset of chest x-ray images with labels that identify covid-19 and pneumonia. The deep learning network could be trained to classify if a given x-ray image is of a patient with covid-19 or pneumonia or a normal person. Here is the information on Kaggle
 https://www.kaggle.com/prashant268/chest-xray-covid19-pneumonia
