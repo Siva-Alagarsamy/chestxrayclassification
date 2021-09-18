@@ -1,0 +1,244 @@
+data/test_chunks/test_1.txt.bz2
+Accuracy score  = 0.8658
+Confusion Matrix = [[4149  726]
+ [ 616 4509]]
+F1 Score = 0.8607883817427386
+----------------------------------------------------
+data/test_chunks/test_2.txt.bz2
+Accuracy score  = 0.8693
+Confusion Matrix = [[4195  716]
+ [ 591 4498]]
+F1 Score = 0.8652160461998556
+----------------------------------------------------
+data/test_chunks/test_3.txt.bz2
+Accuracy score  = 0.8688
+Confusion Matrix = [[4201  680]
+ [ 632 4487]]
+F1 Score = 0.8649372040354129
+----------------------------------------------------
+data/test_chunks/test_4.txt.bz2
+Accuracy score  = 0.8632
+Confusion Matrix = [[4262  712]
+ [ 656 4370]]
+F1 Score = 0.8617064294379297
+----------------------------------------------------
+data/test_chunks/test_5.txt.bz2
+Accuracy score  = 0.867
+Confusion Matrix = [[4302  683]
+ [ 647 4368]]
+F1 Score = 0.8661163680289914
+----------------------------------------------------
+data/test_chunks/test_6.txt.bz2
+Accuracy score  = 0.864
+Confusion Matrix = [[4359  684]
+ [ 676 4281]]
+F1 Score = 0.8650525897995633
+----------------------------------------------------
+data/test_chunks/test_7.txt.bz2
+Accuracy score  = 0.8684
+Confusion Matrix = [[4095  701]
+ [ 615 4589]]
+F1 Score = 0.8615611192930781
+----------------------------------------------------
+data/test_chunks/test_8.txt.bz2
+Accuracy score  = 0.8668
+Confusion Matrix = [[4139  701]
+ [ 631 4529]]
+F1 Score = 0.8613943808532778
+----------------------------------------------------
+data/test_chunks/test_9.txt.bz2
+Accuracy score  = 0.872
+Confusion Matrix = [[4316  684]
+ [ 596 4404]]
+F1 Score = 0.870863599677159
+----------------------------------------------------
+data/test_chunks/test_10.txt.bz2
+Accuracy score  = 0.8669
+Confusion Matrix = [[4381  735]
+ [ 596 4288]]
+F1 Score = 0.8681264242544338
+----------------------------------------------------
+data/test_chunks/test_11.txt.bz2
+Accuracy score  = 0.8678
+Confusion Matrix = [[4238  698]
+ [ 624 4440]]
+F1 Score = 0.8650745050010206
+----------------------------------------------------
+data/test_chunks/test_12.txt.bz2
+Accuracy score  = 0.8656
+Confusion Matrix = [[4260  727]
+ [ 617 4396]]
+F1 Score = 0.8637469586374695
+----------------------------------------------------
+data/test_chunks/test_13.txt.bz2
+Accuracy score  = 0.8606
+Confusion Matrix = [[4200  703]
+ [ 691 4406]]
+F1 Score = 0.8576679599754952
+----------------------------------------------------
+data/test_chunks/test_14.txt.bz2
+Accuracy score  = 0.8677
+Confusion Matrix = [[4414  681]
+ [ 642 4263]]
+F1 Score = 0.869668013003645
+----------------------------------------------------
+data/test_chunks/test_15.txt.bz2
+Accuracy score  = 0.8704
+Confusion Matrix = [[4262  664]
+ [ 632 4442]]
+F1 Score = 0.8680244399185336
+----------------------------------------------------
+data/test_chunks/test_16.txt.bz2
+Accuracy score  = 0.8685
+Confusion Matrix = [[4370  649]
+ [ 666 4315]]
+F1 Score = 0.86921929388364
+----------------------------------------------------
+data/test_chunks/test_17.txt.bz2
+Accuracy score  = 0.8699
+Confusion Matrix = [[4365  635]
+ [ 666 4334]]
+F1 Score = 0.8703020636028312
+----------------------------------------------------
+data/test_chunks/test_18.txt.bz2
+Accuracy score  = 0.8696
+Confusion Matrix = [[4388  680]
+ [ 624 4308]]
+F1 Score = 0.8706349206349207
+----------------------------------------------------
+data/test_chunks/test_19.txt.bz2
+Accuracy score  = 0.8713
+Confusion Matrix = [[4508  675]
+ [ 612 4205]]
+F1 Score = 0.8750849267203727
+----------------------------------------------------
+data/test_chunks/test_20.txt.bz2
+Accuracy score  = 0.8785
+Confusion Matrix = [[4262  635]
+ [ 580 4523]]
+F1 Score = 0.8752438648731903
+----------------------------------------------------
+data/test_chunks/test_21.txt.bz2
+Accuracy score  = 0.864
+Confusion Matrix = [[4438  674]
+ [ 686 4202]]
+F1 Score = 0.8671355998436889
+----------------------------------------------------
+data/test_chunks/test_22.txt.bz2
+Accuracy score  = 0.8693
+Confusion Matrix = [[4315  661]
+ [ 646 4378]]
+F1 Score = 0.8684713696286606
+----------------------------------------------------
+data/test_chunks/test_23.txt.bz2
+Accuracy score  = 0.8671
+Confusion Matrix = [[4391  679]
+ [ 650 4280]]
+F1 Score = 0.8685589951537929
+----------------------------------------------------
+data/test_chunks/test_24.txt.bz2
+Accuracy score  = 0.8721
+Confusion Matrix = [[4340  635]
+ [ 644 4381]]
+F1 Score = 0.8715734511497139
+----------------------------------------------------
+data/test_chunks/test_25.txt.bz2
+Accuracy score  = 0.8666
+Confusion Matrix = [[4362  668]
+ [ 666 4304]]
+F1 Score = 0.8673692583018492
+----------------------------------------------------
+data/test_chunks/test_26.txt.bz2
+Accuracy score  = 0.8694
+Confusion Matrix = [[4254  682]
+ [ 624 4440]]
+F1 Score = 0.8669248013042591
+----------------------------------------------------
+data/test_chunks/test_27.txt.bz2
+Accuracy score  = 0.8663
+Confusion Matrix = [[4463  666]
+ [ 671 4200]]
+F1 Score = 0.8697262009159116
+----------------------------------------------------
+data/test_chunks/test_28.txt.bz2
+Accuracy score  = 0.8697
+Confusion Matrix = [[4365  671]
+ [ 632 4332]]
+F1 Score = 0.8701285757001894
+----------------------------------------------------
+data/test_chunks/test_29.txt.bz2
+Accuracy score  = 0.8731
+Confusion Matrix = [[4294  622]
+ [ 647 4437]]
+F1 Score = 0.8712590037536776
+----------------------------------------------------
+data/test_chunks/test_30.txt.bz2
+Accuracy score  = 0.8688
+Confusion Matrix = [[4417  687]
+ [ 625 4271]]
+F1 Score = 0.8706879558446678
+----------------------------------------------------
+data/test_chunks/test_31.txt.bz2
+Accuracy score  = 0.8694
+Confusion Matrix = [[4381  676]
+ [ 630 4313]]
+F1 Score = 0.8702820818434643
+----------------------------------------------------
+data/test_chunks/test_32.txt.bz2
+Accuracy score  = 0.8681
+Confusion Matrix = [[4302  636]
+ [ 683 4379]]
+F1 Score = 0.8670764889650308
+----------------------------------------------------
+data/test_chunks/test_33.txt.bz2
+Accuracy score  = 0.8758
+Confusion Matrix = [[4403  598]
+ [ 644 4355]]
+F1 Score = 0.8763933121019108
+----------------------------------------------------
+data/test_chunks/test_34.txt.bz2
+Accuracy score  = 0.8746
+Confusion Matrix = [[4369  619]
+ [ 635 4377]]
+F1 Score = 0.8744995996797438
+----------------------------------------------------
+data/test_chunks/test_35.txt.bz2
+Accuracy score  = 0.8699
+Confusion Matrix = [[4361  685]
+ [ 616 4338]]
+F1 Score = 0.8701985433502942
+----------------------------------------------------
+data/test_chunks/test_36.txt.bz2
+Accuracy score  = 0.8711
+Confusion Matrix = [[4422  624]
+ [ 665 4289]]
+F1 Score = 0.8727918681535576
+----------------------------------------------------
+data/test_chunks/test_37.txt.bz2
+Accuracy score  = 0.8696
+Confusion Matrix = [[4520  699]
+ [ 605 4176]]
+F1 Score = 0.8739365815931942
+----------------------------------------------------
+data/test_chunks/test_38.txt.bz2
+Accuracy score  = 0.8729
+Confusion Matrix = [[4358  633]
+ [ 638 4371]]
+F1 Score = 0.8727345549213977
+----------------------------------------------------
+data/test_chunks/test_39.txt.bz2
+Accuracy score  = 0.866
+Confusion Matrix = [[4347  696]
+ [ 644 4313]]
+F1 Score = 0.8664540562088898
+----------------------------------------------------
+data/test_chunks/test_40.txt.bz2
+Accuracy score  = 0.8743
+Confusion Matrix = [[4323  629]
+ [ 628 4420]]
+F1 Score = 0.8730687670402909
+----------------------------------------------------
+Average Acuuracy = 0.8690049999999999
+Average F1 Score = 0.8684925138756938
+Confusion Matrix = [[173091  26909]
+ [ 25489 174511]]
