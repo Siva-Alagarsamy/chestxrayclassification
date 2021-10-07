@@ -1,19 +1,21 @@
 # Introduction
 This is the repo for the ML project that I am working on as part of the [Machine Learning course at Springboard](https://www.springboard.com/courses/ai-machine-learning-career-track).
 
-# Datasets explored for the project
-**Chest X-Ray Covid-19 & Pneumonia**
-This is a dataset of chest x-ray images with labels that identify covid-19 and pneumonia. The deep learning network could be trained to classify if a given x-ray image is of a patient with covid-19 or pneumonia or a normal person. Here is the information on Kaggle
-https://www.kaggle.com/prashant268/chest-xray-covid19-pneumonia
+[Different dataset for this project was explored](DatasetExplored.md) and the Amazon reviews dataset was selected for this project. This project will use the Amazon review dataset to build a model that will predict the sentitment based on a given review
 
-**Turbofan jet engine dataset degradation detection**
-This is a dataset that was generated using a simulator. The data was collected by simulating a jet engine run continiously till failure. The goal is to build a model that will predict the remaining number of cycles based on the sensor readings.
-https://www.kaggle.com/behrad3d/nasa-cmaps
+# Google Language Service benchmark
+A sample dataset was provided to the Google Cloud language service to analyze the sentiment. This is under the [Google language benchmark](google-benchmark)
 
-**Amazon reviews for sentiment analysis**
-This is a dataset that has reviews written by users with a label on wether it is a postive or negative review. The goal is to train a model that can predict predict the postive or negative sentiment for a given review text.
-Here is the dataset on Kaggle
-https://www.kaggle.com/bittlingmayer/amazonreviews 
+# Explorative Data Analysis
+[Explorative Data Analysis](Data Wrangling and Exploration) was performed on the dataset. The folder "Data Wrangling and Exploration" contains the Jupyter notebook files.
 
-# Dataset for this project
-This project will use the Amazon review dataset to build a model that will predict the sentitment based on a given review
+# Benchmark different model types
+Three different model type Logistic Regression, Random Forest and XGBoost was tried on the dataset. The folder "Benchmark Various Models" contains the Jupyter notebook.
+
+# Prototypes
+The folder "Prototypes" contains initial prototype using the Logistic regression.
+
+# Deep neural network model
+Tensorflow using Keras API was used to build a model with embedding. The model was trained using a command line script. There is also a command line script to do prediction. A script was written to convert the dataset file into the Keras DataSet directory structure. This script was executed to convert the full file to the Keras dataset folder and then the trainer script was executed to generate the model. The model is saved under a folder "saved_model"
+The prediction script loads the saved model and allows user to enter a text on the command line. The script then uses the model to predict the sentiment. Any sentiment value less than 0.5 is considered negative sentiment and any sentiment value greater than 0.5 is considered positive.  The model has an accuracy of 0.90
+
