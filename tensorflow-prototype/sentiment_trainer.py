@@ -25,7 +25,7 @@ vectorization_layer: TextVectorization
 # This function loads the training dataset.
 def load_train_dataset():
     return tf.keras.preprocessing.text_dataset_from_directory(
-        'data/train',
+        '../data/train',
         batch_size=batch_size,
         validation_split=0.2,
         subset='training',
@@ -36,7 +36,7 @@ def load_train_dataset():
 # Note we need to use the same random seed to make sure the data that was returned for training is not in this.
 def load_val_dataset():
     return tf.keras.preprocessing.text_dataset_from_directory(
-        'data/train',
+        '../data/train',
         batch_size=batch_size,
         validation_split=0.2,
         subset='validation',
@@ -46,7 +46,7 @@ def load_val_dataset():
 # This function loads the test dataset from the data/test directory
 def load_test_dataset():
     return tf.keras.preprocessing.text_dataset_from_directory(
-        'data/test',
+        '../data/test',
         batch_size=batch_size)
 
 

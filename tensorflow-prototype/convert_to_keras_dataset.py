@@ -41,8 +41,8 @@ def to_keras_format(txt_bz_file, output_path=".", ):
 
 
 def convert():
-    to_keras_format("data/test.ft.txt.bz2", "data/test")
-    to_keras_format("data/train.ft.txt.bz2", "data/train")
+    to_keras_format("../data/test.ft.txt.bz2", "../data/test")
+    to_keras_format("../data/train.ft.txt.bz2", "../data/train")
 
 
 # Press the green button in the gutter to run the script.
