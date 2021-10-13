@@ -1,4 +1,4 @@
-#This server will server the web page and also server the REST API to do the sentiment analysis
+# This server will server the web page and also server the REST API to do the sentiment analysis
 
 import tensorflow as tf
 from flask import Flask, request, jsonify, send_from_directory
