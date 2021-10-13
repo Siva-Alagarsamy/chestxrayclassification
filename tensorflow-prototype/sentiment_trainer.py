@@ -87,13 +87,15 @@ def train():
     val_ds = val_ds.cache().prefetch(buffer_size=auto_tune)
     test_ds = test_ds.cache().prefetch(buffer_size=auto_tune)
 
-    embedding_dim = 16
+    embedding_dim = 32
 
     # Define the model
     model = tf.keras.Sequential([
         layers.Embedding(max_features + 1, embedding_dim),
         layers.Dropout(0.2),
         layers.GlobalAveragePooling1D(),
+        layers.Dropout(0.2),
+        layers.Dense(embedding_dim, activation='relu'),
         layers.Dropout(0.2),
         layers.Dense(1)])
 
