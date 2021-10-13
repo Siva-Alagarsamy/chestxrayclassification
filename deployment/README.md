@@ -9,17 +9,25 @@ The trainer then saves the model along with the vector layer and a sigmoid layer
 The [REST API server](sentiment_rest_server.py) uses flask to serve the saved model for prediction. The web server loads the saved model and adds a route /check_sentiment which calls the function "check_sentiment" which uses the model to do the prediction and returns the result as a JSON message with result value. 
 
 **URL:** /check_sentiment
+
 **Method:** POST
+
 **Request Type:**  application/json
+
 **Post Content:** JSON message with "text" field. For example:
+
     {
       "text" : "Text to be analyzed"
     }
+	
 **Response Type:** application/json
+
 **Response Content:** A JSON message with the "result" field. For example:
+
     {
        "result" : 0.75
     }
+	
  Any value less then 0.5 shall be considered a negative sentiment and any value greater than 0.5 shall be considered a positive sentiment. 
 
 # Web Page
