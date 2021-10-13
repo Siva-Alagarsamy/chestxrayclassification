@@ -35,5 +35,5 @@ def send_index_file():
 if __name__ == '__main__':
     # Load the saved model
     loaded_model = tf.keras.models.load_model('saved_model')
-    app.run()
+    app.run(host='0.0.0.0')
 
