@@ -1,5 +1,6 @@
 FROM python:3.8-slim as builder
 COPY . /src
+ENV PIPENV_VENV_IN_PROJECT 1
 RUN pip install --user flask tensorflow
 
 FROM python:3.8-slim as app
