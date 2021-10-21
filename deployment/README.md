@@ -9,7 +9,8 @@ The [initial implementation](sentiment_trainer.py) used a convolution layer. The
 
 # Final work with LSTM layer
 
-The [final deployment code is based on LSTM](sentiment_lstm_trainer.py), the network is similar to the initial convolution network. LSTM is used to capture relation between words in a sequence. The LSTM layer parameters were selected to meet the requirements of CuDNN kernel so the layer can trained on a GPU. Otherwise, the training can take days.
+The [final deployment code is based on LSTM](sentiment_lstm_trainer.py), the network is similar to the initial convolution network, but a LSTM layer is used instead of a convolution layer. The LSTM layer parameters were selected to meet the requirements of CuDNN kernel so the layer can be trained on a GPU. Otherwise, the training can take days.
+[See this link on how to enable GPU for Tensorflow](https://www.tensorflow.org/install/gpu)
 
 ![LSTM Network Architecture](lstm.png "Convolution Network")
 
