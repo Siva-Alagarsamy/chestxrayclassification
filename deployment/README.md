@@ -42,6 +42,8 @@ The [REST API server](sentiment_rest_server.py) uses flask to serve the saved mo
 
 # Web Page
  A simple web page was developed to use the REST API and provide the end user a easy way to test the API. The [index.html](index.html) is the main page. The [index.js](index.js) has the javascript code to make the REST API and update the results. The [index.css](index.css) has styles to format the webpage.
+  
+![Web Page](webpage.png "Web page")
 
 
 # Docker Image
