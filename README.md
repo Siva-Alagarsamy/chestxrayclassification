@@ -20,7 +20,7 @@ A value of 1 for sentiment indicates a negative sentiment and a value of 2 indic
 
     __label__1 didn't run off of USB bus power: Was hoping that this drive would run off of bus power, but it required the adapter to actually work. :( I sent it back.
 
-# Google Language Service benchmark
+# Google Natural Language AI Service benchmark
 Many cloud providers provide machine learning software as a service (SAAS). These services can be used to do sentiment analyzis on a given dataset. These SAAS model provides a standard API to access the model to do prediction. Google Cloud has a [Natural Language AI](https://cloud.google.com/natural-language) service that has sentiment analysis function. [Here is the tutorial](https://cloud.google.com/natural-language/docs/sentiment-tutorial) on how to use the Google Cloud sentiment analysis. A Jupyter Notebook was developed to use this API with smaller sample of our review dataset to get a benchmark. The serivce was slow (probably because I was using an unpaid version), so I was able to run 500 reviews through the service API. The service predicted 449 reviews correctly out of 500 reivews. 
 
 The Jupyter Notebook code can be found under [Google language benchmark](google-benchmark)
